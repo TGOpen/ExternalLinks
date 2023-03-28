@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.63.0'
+project:
+    name: ExternalLinks
+    package:
+        name: utilityBarLinks
+        api_version: '55.0'
+    git:
+        default_branch: main
+        prefix_feature: feature/
+        prefix_beta: beta/
+        repo_url: https://github.com/TGOpen/ExternalLinks/
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/ExternalLinks/tests
+            options:
+                outputdir: robot/ExternalLinks/results
+
+    robot_testdoc:
+        options:
+            path: robot/ExternalLinks/tests
+            output: robot/ExternalLinks/doc/ExternalLinks_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

@@ -1,0 +1,9 @@
+input:hover{
+    color: rgba(27,82,151,1);
+}
+
+.linkButton
+{
+    width:100%;
+    height:38px;
+}

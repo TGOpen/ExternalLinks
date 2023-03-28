@@ -1,0 +1,7 @@
+<template>
+    <template if:true={linkList}>
+        <template for:each={linkList} for:item="link">
+        <a key={link.Id} class="slds-button slds-button_neutral linkButton" href={link.Link_URL__c} target="_blank">{link.MasterLabel}</a>
+        </template>
+    </template>
+</template>
