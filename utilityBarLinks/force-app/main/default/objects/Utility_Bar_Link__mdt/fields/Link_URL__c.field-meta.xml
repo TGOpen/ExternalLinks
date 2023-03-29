@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_URL__c</fullName>
+    <description>Stores the link URL.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Stores the link URL.</inlineHelpText>
+    <label>Link URL</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>
